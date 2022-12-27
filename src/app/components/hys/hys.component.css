@@ -1,4 +1,20 @@
 .row{
-    background-color: #a1b5cb;
+    
     padding: 20px;
+    position: relative;
+    top: 230px;
+}
+
+@media (max-width: 575px){
+#skills{
+    position: relative;
+    top: 310px
+
+}
+
+}
+h1{
+    
+    padding: 30px;
+    box-shadow: 2px -2px 5px #999;
 }

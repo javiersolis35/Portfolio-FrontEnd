@@ -5,10 +5,10 @@
     
 }
 
-div{
+/* div{
     background-color: #a1b5cb;
     text-align: center;
-}
+} */
 /*estilo foto de perfil*/
 
 @media (min-width: 576px){
@@ -17,32 +17,71 @@ div{
         width: 15%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
-        left: 3%;
-        top: 750px;
+        left: 0%;
+        top: 660px;
     }
+    
 }
 
 @media (max-width: 575px){
     #fotodeperfil{
         position: absolute;
         width: 48%;
-        border-radius: 100%;
+        border-radius: 30%;
         box-shadow: 3px 3px 3px grey;
         left: 25%;
-        top: 770px;
+        top: 670px;
     }
 }
 
 
 
-/*etiqueta nobre*/
+/*etiqueta nombre*/
 
-#nombre{
+#nombre1{
+    /* background-color: aqua; */
+    position: absolute;
+    width: 10%;
+    left: 2%;
+    top: 890px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
     font-weight: bold;
-    margin-top: 30%;
     
     
     
 }
 
+#text1{
+    /* background-color: aquamarine;  */
+    position: absolute;
+    width:70%;
+    left: 20%;
+    top: 800px;
+    
+    
+}
 
+@media(max-width: 575px){
+
+    #nombre1{
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        top: 870px;
+        
+    }
+
+}
+
+@media (max-width: 575px){
+
+    #text1{
+        position: absolute;
+        width: 100%;
+        top: 940px;
+        left: 0%;
+
+    }
+
+}

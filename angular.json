@@ -23,11 +23,12 @@
               "src/assets"
             ],
             "styles": [
-              "E:/Argentina Programa/ProyectoFinal/Proyecto_integrador/PI_Javiersolis/node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
           ],
           "scripts": [
-            "E:/Argentina Programa/ProyectoFinal/Proyecto_integrador/PI_Javiersolis/node_modules/bootstrap/dist/js/bootstrap.js"
+            "node_modules/bootstrap/dist/js/bootstrap.js"
           ]
           },
           "configurations": {

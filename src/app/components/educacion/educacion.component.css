@@ -1,4 +1,4 @@
-.row{
+/* .row{
     padding: 20px;
 }
 
@@ -7,4 +7,48 @@ div{
 }
 h1,h3{
     display: inline;
+} */
+
+.row{
+    padding: 10px;
+}
+
+div{
+    
+    position: relative;
+    top: 300px;
+}
+#exp1{
+    /* position: relative; */
+    width: 35%;
+    top: 210px;
+}
+
+#datos{
+    position: relative;
+    width: 100%;
+    top: 220px;
+
+}
+
+@media (max-width: 575px){
+    #exp1{
+        position: relative;
+        width: 100%;
+        left: 0%;
+        top: 295px;
+        
+        
+    }
+    #datos{
+        position: relative;
+        width: 100%;
+        top: 300px;
+    }
+
+}
+h1{
+    
+    padding: 30px;
+    box-shadow: 2px -2px 5px #999;
 }

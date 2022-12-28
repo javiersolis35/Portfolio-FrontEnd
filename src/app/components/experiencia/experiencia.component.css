@@ -9,8 +9,10 @@ div{
 }
 #exp1{
     
-    width: 35%;
+    width: 100%;
     top: 200px;
+    padding: 30px;
+    box-shadow: 2px -2px 5px #999;
 }
 
 #datos{
@@ -36,10 +38,9 @@ div{
     }
 
 }
-h1{
-    
-    padding: 30px;
-    box-shadow: 2px -2px 5px #999;
+
+h1,h3{
+    display: inline;
 }
 
 

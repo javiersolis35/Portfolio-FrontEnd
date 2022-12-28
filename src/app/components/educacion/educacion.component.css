@@ -5,9 +5,7 @@
 div{
     background-color: #a1b5cb;
 }
-h1,h3{
-    display: inline;
-} */
+ */
 
 .row{
     padding: 10px;
@@ -20,8 +18,10 @@ div{
 }
 #exp1{
     /* position: relative; */
-    width: 35%;
+    width: 100%;
     top: 210px;
+    padding: 30px;
+    box-shadow: 2px -2px 5px #999;
 }
 
 #datos{
@@ -47,8 +47,8 @@ div{
     }
 
 }
-h1{
-    
-    padding: 30px;
-    box-shadow: 2px -2px 5px #999;
+
+
+h1,h3{
+    display: inline;
 }

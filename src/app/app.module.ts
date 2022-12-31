@@ -15,7 +15,10 @@ import { HysComponent } from './components/hys/hys.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 
 import { FooterComponent } from './components/footer/footer.component';
-import { LoginComponent } from './components/login/login.component';
+import { LoginComponent } from "./components/login/loginComponent";
+import {HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
+import {FormsModule} from '@angular/forms';
 
 
 @NgModule({
@@ -33,12 +36,18 @@ import { LoginComponent } from './components/login/login.component';
     ProyectoComponent,
     FooterComponent,
     LoginComponent,
+    HomeComponent,
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({})
+    NgCircleProgressModule.forRoot({}),
+    HttpClientModule,
+    FormsModule,
+
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]

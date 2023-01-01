@@ -1,12 +1,12 @@
  .row{
     padding: 10px;
-}
-
+    
+} 
 div{
     
     position: relative;
     top: 300px;
-}
+} 
 #exp1{
     
     width: 100%;
@@ -18,7 +18,7 @@ div{
 #datos{
     position: relative;
     width: 100%;
-    top: 203px;
+    top: 10px;
 
 }
 
@@ -34,13 +34,15 @@ div{
     #datos{
         position: relative;
         width: 100%;
-        top: 290px;
+        top: 15px;
     }
 
 }
 
 h1,h3{
     display: inline;
+    border-radius: 40%;
 }
+
 
 

@@ -10,12 +10,14 @@
                 <a href=""><img src="../../../assets/twitter.png" id="twitter"></a>
                 <a href=""><img src="../../../assets/github.png" id="github"></a>
                 <a href=""><img src="../../../assets/linkedin.png" id="linkedin"></a>
-                <button type="button" class="btn btn-outline-primary" (click)="login()">Ingresar</button>      
+                <button type="button" class="btn btn-outline-primary"(click)="login()"*ngIf="!isLogged">INGRESO</button>      
+                <button type="button" class="btn btn-outline-primary" (click)="onLogOut()"*ngIf="isLogged">CERRAR SESION</button> 
+
 </div>
 
             
         </div>
     </div>
-</div>
+
  
 

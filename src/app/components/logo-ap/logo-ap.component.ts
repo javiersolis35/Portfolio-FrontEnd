@@ -4,12 +4,13 @@ import { TokenService } from 'src/app/service/token.service';
 
 @Component({
   selector: 'app-logo-ap',
-  templateUrl: './logo-ap.component.html',
+  templateUrl: './Logo-ap.component.html',
   styleUrls: ['./logo-ap.component.css']
 })
 export class LogoAPComponent implements OnInit {
 
     isLogged = false;
+islogged: any;
 
   constructor(private router:Router, private tokenService: TokenService) { }
 
@@ -21,6 +22,11 @@ export class LogoAPComponent implements OnInit {
       this.isLogged = false;
     }
   }
+
+    onLogOut():void{
+      this.tokenService.logOut();
+      window.location.reload();
+    }
 
   login(){
     this.router.navigate(['/login'])

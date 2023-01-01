@@ -1,66 +1,32 @@
-<!-- <div class="border border-success p-2 mb-2">
- <div class="row">
-    
-    
-    <div class="col-lg-11">
-        <div class="border border-success p-2 mb-2">
-        <ul>
-            <li><h1>Trabajo 1</h1> - <h3>(years)</h3></li>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, optio. Quidem, doloribus, 
-                possimus voluptate harum numquam porro
-                 quibusdam consequatur animi molestiae fugit corrupti suscipit in quae at alias velit odio!
-            </p>
-        </ul>
-        </div>
-
-        <div class="border border-success p-2 mb-2">
-        <ul>
-            <li><h1>Trabajo 2</h1> - <h3>(years)</h3></li>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, optio. Quidem, doloribus, 
-                possimus voluptate harum numquam porro
-                 quibusdam consequatur animi molestiae fugit corrupti suscipit in quae at alias velit odio!
-            </p>
-        </ul></div>
-        <div class="border border-success p-2 mb-2">
-        <ul>
-            <li><h1>Trabajo 3</h1> - <h3>(years)</h3></li>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, optio. Quidem, doloribus, 
-                possimus voluptate harum numquam porro
-                 quibusdam consequatur animi molestiae fugit corrupti suscipit in quae at alias velit odio!
-            </p>
-        </ul>
-        </div>
-    </div>
-</div>
- </div>
-
- <div class="row">
-    <h1>Experiencia laboral</h1>
- </div>
- --> 
-
- 
 <div class="row" id="exp1">
-    <h1>Experiencia laboral</h1>
-</div>
-    <div class="row" id="datos">
-       <ul>
-            <li>
-                <h1>Trabajo</h1> - <h3>(Years)</h3></li>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ad maiores quam alias porro omnis adipisci facilis facere esse libero.</p>
-        </ul>
-        <ul>
-            <li>
-                <h1>Trabajo</h1> - <h3>(Years)</h3></li>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ad maiores quam alias porro omnis adipisci facilis facere esse libero.</p>
-        </ul>
-        <ul>
-            <li>
-                <h1>Trabajo</h1> - <h3>(Years)</h3></li>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ad maiores quam alias porro omnis adipisci facilis facere esse libero.</p>
-        </ul>
+    <h1>Experiencia laboral
+        <button type="submit" class="btn btn-warning" routerLink="/nuevaexp" *ngIf="isLogged">
+            Agregar Experiencia
+        </button>
+    </h1>
+
+
+    <div class="col-lg-1 "></div>
+    <div class="col-lg-11" id="datos">
+        <table class="table">
+            <tbody>
+                <tr *ngFor="let Experiencia of expe">
+                    <td>
+                        <h5>{{Experiencia.nombreE}}</h5>
+                    </td>
+                    <td>
+                        <h5>{{Experiencia.descripcionE}}</h5>
+                    </td>
+                    <td *ngIf="isLogged"> <button class="btn btn-light" routerLink="/editexp/{{Experiencia.id}}"><i
+                                class="bi bi-pencil-square"></i> EDITAR</button></td>
+
+
+                    <td *ngIf="isLogged"> <button class="btn btn-danger" (click)="delete(Experiencia.id)">
+                        <i class="bi bi-trash3-fill"></i> BORRAR </button>
+                        </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
 </div>

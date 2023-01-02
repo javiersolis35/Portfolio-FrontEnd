@@ -2,12 +2,15 @@
     padding: 30px;
     
     position: relative;
-    top: 250px;
+    top: 230px;
+   
+
     
 }
-
+ 
 h1{
    
     padding: 30px;
     box-shadow: 2px -2px 5px #999;
+    top: 100px;
 }

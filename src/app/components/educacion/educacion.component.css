@@ -9,6 +9,8 @@ div{
 
 .row{
     padding: 10px;
+   
+
 }
 
 div{
@@ -17,7 +19,7 @@ div{
     top: 300px;
 }
 #exp1{
-    /* position: relative; */
+    position: relative;
     width: 100%;
     top: 210px;
     padding: 30px;
@@ -27,7 +29,7 @@ div{
 #datos{
     position: relative;
     width: 100%;
-    top: 220px;
+    top: 30px;
 
 }
 
@@ -43,7 +45,7 @@ div{
     #datos{
         position: relative;
         width: 100%;
-        top: 300px;
+        top: 30px;
     }
 
 }

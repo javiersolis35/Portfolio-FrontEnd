@@ -1,14 +1,12 @@
 
 .row{
     padding: 20px;
-    
+
+
     
 }
 
-/* div{
-    background-color: #a1b5cb;
-    text-align: center;
-} */
+ 
 /*estilo foto de perfil*/
 
 @media (min-width: 576px){
@@ -19,6 +17,7 @@
         box-shadow: 3px 3px 3px grey;
         left: 0%;
         top: 660px;
+        
     }
     
 }
@@ -55,11 +54,12 @@
 #text1{
     /* background-color: aquamarine;  */
     position: absolute;
-    width:70%;
+    width:100%;
     left: 20%;
     top: 800px;
     
-    
+   
+
 }
 
 @media(max-width: 575px){

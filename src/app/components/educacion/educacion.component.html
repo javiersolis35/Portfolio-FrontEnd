@@ -1,24 +1,32 @@
-
-
 <div class="row" id="exp1">
-    <h1>Educacion</h1>
-</div>
-    <div class="row" id="datos">
-       <ul>
-            <li>
-                <h1>Estudios 1</h1> - <h3>(Years)</h3>
-            </li>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ad maiores quam alias porro omnis adipisci facilis facere esse libero.</p>
-        </ul>
-        <ul>
-            <li>
-                <h1>Estudios 2</h1> - <h3>(Years)</h3></li>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ad maiores quam alias porro omnis adipisci facilis facere esse libero.</p>
-        </ul>
-        <ul>
-            <li>
-                <h1>Estudios 3</h1> - <h3>(Years)</h3></li>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ad maiores quam alias porro omnis adipisci facilis facere esse libero.</p>
-        </ul>
+    <h1>Educacion
+        <button type="submit" class="btn btn-warning" routerLink="/nuevaedu" *ngIf="isLogged">
+            Agregar Educacion
+        </button>
+    </h1>
+
+
+    <div class="col-lg-1 "></div>
+    <div class="col-lg-11" id="datos">
+        <table class="table">
+            <tbody>
+                <tr *ngFor="let Educacion of educacion">
+                    <td>
+                        <h5>{{Educacion.nombreE}}</h5>
+                    </td>
+                    <td>
+                        <h5>{{Educacion.descripcionE}}</h5>
+                    </td>
+                    <td *ngIf="isLogged"> <button class="btn btn-light" routerLink="/editedu/{{Educacion.id}}"><i
+                                class="bi bi-pencil-square"></i> EDITAR</button></td>
+
+
+                    <td *ngIf="isLogged"> <button class="btn btn-danger" (click)="delete(Educacion.id)">
+                        <i class="bi bi-trash3-fill"></i> BORRAR </button>
+                        </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
 </div>

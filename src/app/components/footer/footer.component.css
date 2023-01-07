@@ -1,15 +1,14 @@
-row{
-    background: #a1b5cb;
-    
-}
+
 
 footer{
-    color: #050505;
+    color: #ffffff;
     font-size: 14px;
     display: flex;
     flex-direction: column;
     text-align: center;
     box-shadow: 2px -2px 5px #999;
     position: relative;
-    top: 400px;
+    top: 180px;
+    background-color: rgb(105, 121, 151);
+    
 }

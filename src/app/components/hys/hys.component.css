@@ -1,23 +1,37 @@
-.row{
+.row {
+
+    /* 
     
+    background-color: rgba(9, 236, 236, 0.301);
+    box-shadow: 2px -2px 5px rgb(240, 79, 79); */
+    position: relative;
+    width: 100%;
+    top: 140px;
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
     padding: 20px;
-    position: relative;
-    top: 220px;
-    
-    
+}
+
+@media (max-width: 575px) {
+    #skills {
+        position: relative;
+        top: 30px
+    }
 
 }
 
-@media (max-width: 575px){
-#skills{
-    position: relative;
-    top: 310px
+h1,
+h3 {
 
-}
-
-}
-h1{
-    
     padding: 30px;
-    box-shadow: 2px -2px 5px #999;
+    color: aliceblue;
+}
+
+.circulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }

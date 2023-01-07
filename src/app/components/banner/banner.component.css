@@ -1,5 +1,19 @@
-
 img{
     width: 100%;
     height: 700px;
 }
+
+.titulo1{
+    
+    position: absolute;
+    width: 50%;
+    top: 300px;
+    right: 30%;
+    padding: 5%;
+    text-align: center;
+} 
+h1{
+    color: aquamarine;
+    
+}
+

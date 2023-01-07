@@ -1,29 +1,25 @@
-/* .row{
-    padding: 20px;
-}
-
-div{
-    background-color: #a1b5cb;
-}
- */
-
 .row{
-    padding: 10px;
-   
+    /* padding: 10px;
+    background-color: rgba(9, 236, 236, 0.301); */
+    background: rgba(255,255,255,0.1);
+-webkit-backdrop-filter: blur(4px);
+backdrop-filter: blur(4px);
+border: 1px solid rgba(255,255,255,0.05);
 
 }
 
 div{
-    
+  
     position: relative;
     top: 300px;
 }
 #exp1{
     position: relative;
     width: 100%;
-    top: 210px;
+    top: 110px;
     padding: 30px;
-    box-shadow: 2px -2px 5px #999;
+    
+    
 }
 
 #datos{
@@ -38,7 +34,7 @@ div{
         position: relative;
         width: 100%;
         left: 0%;
-        top: 295px;
+        top: 15px;
         
         
     }
@@ -51,6 +47,11 @@ div{
 }
 
 
-h1,h3{
+h1,h3,h5{
     display: inline;
+    border-radius: 40%;
+    color: aliceblue;
+    z-index: 1;
+  color: white;
+  font-size: 25px;
 }

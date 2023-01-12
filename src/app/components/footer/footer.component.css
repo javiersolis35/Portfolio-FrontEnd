@@ -6,9 +6,20 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
-    box-shadow: 2px -2px 5px #999;
+    
     position: relative;
-    top: 180px;
-    background-color: rgb(105, 121, 151);
+    top: 300px;
+    background: rgba(184, 25, 25, 0.1);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(236, 19, 19, 0.05);
+    border-radius: 5%;
+
+    background: rgba(184, 25, 25, 0.1);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(236, 19, 19, 0.05);
+    border-radius: 5%;
+
     
 }

@@ -11,7 +11,7 @@ import { TokenService } from 'src/app/service/token.service';
 export class EducacionComponent implements OnInit {
   educacion: Educacion[] = [];
 
-  constructor(private educacioS: EducacionService, private tokenService: TokenService) { }
+  constructor(private educacionS: EducacionService, private tokenService: TokenService) { }
   isLogged = false;
 
   ngOnInit(): void {
@@ -25,7 +25,7 @@ export class EducacionComponent implements OnInit {
   }
 
   cargarEducacion(): void {
-    this.educacioS.lista().subscribe(
+    this.educacionS.lista().subscribe(
       data => {
         this.educacion = data;
       }
@@ -35,7 +35,7 @@ export class EducacionComponent implements OnInit {
 
   delete(id?: number){
     if(id != undefined){
-      this.educacioS.delete(id).subscribe(
+      this.educacionS.delete(id).subscribe(
         data => {
           this.cargarEducacion();
         }, err =>{

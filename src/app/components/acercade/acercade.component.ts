@@ -25,7 +25,7 @@ export class AcercadeComponent implements OnInit {
 
 
   cargarPersona(){
-    this.personaService.details(1).subscribe(
+    this.personaService.details(30).subscribe(
       data =>{
         this.persona = data
       }

@@ -11,9 +11,9 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
 })
 export class AuthService {
 
-  authURL = 'https://portfolio-backend-42dy.onrender.com/auth/';
+  authURL = '';
 
-  URL = environment.URL + 'auth/';
+  URL = environment.URL + 'auth'
 
   constructor(private httpClient: HttpClient) { }
 
@@ -23,6 +23,6 @@ export class AuthService {
   }
 
   public login(loginUsuario: LoginUsuario): Observable<JwtDto>{
-    return this.httpClient.post<JwtDto>(this.authURL + 'login', loginUsuario);
+    return this.httpClient.post<JwtDto>(this.authURL + '/login', loginUsuario);
   }
 }

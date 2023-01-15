@@ -26,10 +26,10 @@
               "node_modules/bootstrap/dist/css/bootstrap.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
-          ],
-          "scripts": [
-            "node_modules/bootstrap/dist/js/bootstrap.js"
-          ]
+            ],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -97,6 +97,16 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "PI_Javiersolis:build:production",
+            "firebaseProject": "portfoliofrontend-b6024",
+            "firebaseHostingSite": "portfoliofrontend-b6024"
           }
         }
       }

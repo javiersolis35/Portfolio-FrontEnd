@@ -27,6 +27,7 @@ import { EditAcercaDeComponent } from './components/acercade/edit-acerca-de.comp
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideStorage,getStorage } from '@angular/fire/storage';
+import { provideAuth,getAuth } from '@angular/fire/auth';
 
 
 
@@ -62,6 +63,7 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
     FormsModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideStorage(() => getStorage()),
+    provideAuth(() => getAuth()),
 ],
 
 

@@ -15,8 +15,8 @@ export const environment = {
   },
   production: false,
 
-  /* URL: 'http://localhost:8080', */
-  /* URL: 'mi pagina web' para heroku */
+   URL: 'http://localhost:8080',
+ 
 };
 
 /*

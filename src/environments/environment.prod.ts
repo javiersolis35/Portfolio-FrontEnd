@@ -8,7 +8,7 @@ export const environment = {
     authDomain: 'portfoliofrontend-b6024.firebaseapp.com',
     messagingSenderId: '861674463729',
     measurementId: 'G-PW6SEB0330',
-    apiURL: "https://portfoliobackend-87l4.onrender.com",
   },
-  production: true
+  production: true,
+  URL: 'https://portfolio-backend-42dy.onrender.com/'
 };

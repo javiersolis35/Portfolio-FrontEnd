@@ -8,9 +8,12 @@ import { Experiencia } from '../model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  expURL = 'https://portfolio-backend-42dy.onrender.com';
+
+
   
-  URL = environment.URL + 'explab'; 
+  expURL = 'https://portfolio-backend-myr2.onrender.com/';
+  
+   URL = environment.URL + 'explab/'; 
 
 
   constructor(private httpClient: HttpClient) { }
@@ -18,27 +21,27 @@ export class SExperienciaService {
 
 
   public lista(): Observable<Experiencia[]>{
-    return this.httpClient.get<Experiencia[]>(this.expURL + 'lista');
+    return this.httpClient.get<Experiencia[]>(this.URL + 'lista');
 
   }
 
   public details(id: number): Observable<Experiencia>{
-    return this.httpClient.get<Experiencia>(this.expURL + `detail`);
+    return this.httpClient.get<Experiencia>(this.URL + `detail/${id}`);
   }
 
 
   public save(experiencia: Experiencia): Observable<any>{
-    return this.httpClient.post<any>(this.expURL + 'create', experiencia);
+    return this.httpClient.post<any>(this.URL + 'create', experiencia);
 
   } 
 
   public update(id: number, experiencia: Experiencia): Observable<any>{
-    return this.httpClient.put<any>(this.expURL + `update`, experiencia);
+    return this.httpClient.put<any>(this.URL + `update/${id}`, experiencia);
 
   }
 
   public delete(id: number): Observable<any>{
-    return this.httpClient.delete<any>(this.expURL + `delete`);
+    return this.httpClient.delete<any>(this.URL + `delete/${id}`);
 
   }
 

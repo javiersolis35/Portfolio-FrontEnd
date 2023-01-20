@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { persona } from 'src/app/model/persona.model';
 import { ImageService } from 'src/app/service/image.service';
@@ -29,7 +29,6 @@ export class EditAcercaDeComponent implements OnInit {
   onUpdate(): void {
     const id = this.activatedRouter.snapshot.params['id'];
     this.persona.img = this.imageService.url
-
     this.personaService.update(id, this.persona).subscribe(
       data => {
         this.router.navigate(['']);

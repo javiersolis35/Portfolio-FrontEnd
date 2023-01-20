@@ -10,7 +10,7 @@ import { Educacion } from '../model/educacion';
 export class EducacionService {
  
 
-  URL = environment.URL + 'educacion';
+  URL = environment.URL + 'educacion/';
 
   constructor(private httpClient : HttpClient ) { }
 
@@ -19,7 +19,7 @@ export class EducacionService {
   }
 
   public details(id: number): Observable<Educacion>{
-      return this.httpClient.get<Educacion>(this.URL + `detail`);
+      return this.httpClient.get<Educacion>(this.URL + `detail/${id}`);
 
   }
 
@@ -28,11 +28,11 @@ export class EducacionService {
   }
 
   public update(id: number, educacion: Educacion): Observable<any>{
-    return this.httpClient.put<any>(this.URL + `update`, educacion);
+    return this.httpClient.put<any>(this.URL + `update/${id}`, educacion);
 
   }
 
   public delete(id: number): Observable<any>{
-    return this.httpClient.delete<any>(this.URL + `delete`);
+    return this.httpClient.delete<any>(this.URL + `delete/${id}`);
   }
 }

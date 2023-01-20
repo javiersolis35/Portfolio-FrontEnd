@@ -8,6 +8,8 @@ import { TokenService } from 'src/app/service/token.service';
   templateUrl: './experiencia.component.html',
   styleUrls: ['./experiencia.component.css']
 })
+
+
 export class ExperienciaComponent implements OnInit {
   expe: Experiencia[] = [];
 

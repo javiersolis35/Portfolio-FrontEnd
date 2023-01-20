@@ -10,7 +10,7 @@ export class persona{
         this.nombre = nombre;
         this.apellido = apellido;
         this.descripcion = descripcion;
-        this.img = img;
+        this.img
 
     }
 

@@ -50,11 +50,11 @@
             <!-- LOGIN -->
 
             <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
-                <div class="mb-4">
+                <div class="mb-4" id="usu1">
                     <label for="email" class="form-label">Usuario</label>
                     <input type="email" id="nombreUsuario" class="form-control" name="nombreUsuario"[(ngModel)]="nombreUsuario" required/>
                 </div>
-                <div class="mb-4">
+                <div class="mb-4" id="usu1">
                     <label for="password" class="form-label">Password</label>
                     <input type="password" id="password" class="form-control" name="password" [(ngModel)]="password" required/>
                 </div>

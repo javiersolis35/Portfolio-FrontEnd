@@ -1,9 +1,6 @@
-.row {
+/* .row {
 
-    /* 
-    
-    background-color: rgba(9, 236, 236, 0.301);
-    box-shadow: 2px -2px 5px rgb(240, 79, 79); */
+  
     position: relative;
     width: 100%;
     top: 140px;
@@ -34,4 +31,46 @@ h3 {
     flex-direction: column;
     align-items: center;
 
+} */
+
+.row {
+
+    
+    position: relative;
+    width: 80%;
+    left: 10%;
+    top: 160px;
+    padding: 30px;
+    background: rgba(3, 3, 3, 0.514);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(17, 17, 17, 0.05);
+    padding: 20px;
+}
+
+@media (max-width: 575px) {
+    #skills {
+        position: relative;
+        top: 320px
+    }
+
+}
+
+
+h3 {
+
+    padding: 30px;
+    color: aliceblue;
+}
+
+.circulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1{
+    color: rgb(245, 122, 8);
+    font-size: 35px;
 }

@@ -1,4 +1,4 @@
-<div class="botonedi" id="boto1"><button type="submit" class="btn btn-warning " routerLink="/editacercade/1" *ngIf="isLogged">
+<!-- <div class="botonedi" id="boto1"><button type="submit" class="btn btn-warning " routerLink="/editacercade/1" *ngIf="isLogged">
                 Editar persona
             </button></div>
             <div class="container">
@@ -17,6 +17,35 @@
                     <h1>Acerca de mi</h1>
                     <p>{{persona.descripcion}}</p>
                 </span>
+            </div>
+        </div>
+
+    </div>
+</div> -->
+
+<div class="container" id="caja1">
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+            <img src={{persona.img}} class="img-fluid" id="fotodeperfil">
+
+        </div>
+        <div class="col-lg-1" id="tag1">
+            <p id="nombre">{{persona.nombre}} {{persona.apellido}}</p>
+            <p id="catego1"> Full Stack Developer Jr</p>
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8" id="text1">
+            <div class="text-center"><span>
+                    <h1>Acerca de mi</h1>
+                    <p id="descrip1">{{persona.descripcion}}</p>
+                </span>
+                <div class="botonedi" id="boto1"><button type="submit" class="btn btn-warning "
+                        routerLink="/editacercade/1" *ngIf="isLogged">
+                        Editar Persona
+                    </button></div>
+
+
+
             </div>
         </div>
 

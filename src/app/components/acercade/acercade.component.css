@@ -1,4 +1,5 @@
-.row {
+/* .row {
+
     padding: 20px;
 
 
@@ -6,7 +7,7 @@
 }
 
 
-/*estilo foto de perfil*/
+
 
 @media (min-width: 576px) {
     #fotodeperfil {
@@ -34,10 +35,10 @@
 
 
 
-/*etiqueta nombre*/
+
 
 #tag1 {
-    /* background-color: aqua; */
+    
     position: absolute;
     width: 15%;
     height: 10%;
@@ -60,7 +61,7 @@
 }
 
 #text1 {
-    /* background-color: aquamarine;  */
+   
     position: relative;
     width: 70%;
 
@@ -101,4 +102,146 @@
     width: 200px;
     top: 93%;
     left: 75%;
+} */
+
+.row {
+    padding: 20px;
+
+
+
 }
+
+
+/*estilo foto de perfil*/
+
+@media (min-width: 576px) {
+    #fotodeperfil {
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+
+        left: 1%;
+        bottom: 200px;
+    }
+
+}
+
+@media (max-width: 575px) {
+    #fotodeperfil {
+        position: absolute;
+        width: 48%;
+        border-radius: 30%;
+        box-shadow: 3px 3px 3px rgb(231, 76, 4);
+        left: 40%;
+        top: 300px;
+    }
+}
+
+
+
+/*etiqueta nombre*/
+
+#tag1 {
+    /* background-color: aqua; */
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    right: 70%;
+    bottom: 280px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+
+    font-size: x-large;
+
+
+
+
+
+}
+
+#nombre {
+    font-size: 35px;
+    color: rgb(245, 121, 6);
+    top: 100px;
+}
+
+#catego1 {
+    color: rgba(231, 146, 49, 0.479);
+}
+
+#text1 {
+    position: relative;
+    width: 100%;
+    right: 10%;
+    top: 80px;
+    padding: 30px;
+    background: rgba(3, 3, 3, 0.514);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(17, 17, 17, 0.05);
+
+}
+
+@media(max-width: 575px) {
+
+    #tag1 {
+        position: absolute;
+        width: 50%;
+        left: 40%;
+        top: 490px;
+
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    #text1 {
+        position: absolute;
+        width: 100%;
+        top: 690px;
+        left: 15%;
+
+    }
+    h1{
+        left: 1px;
+    }
+    #descrip1{
+        left: 10px;
+    }
+    #caja1{
+        height: 100px;
+        width: 550px;
+    }
+    #boto1{
+        position: relative;
+        left: -100px;
+        bottom: 345px;
+    }
+    
+}
+
+.botonedi {
+    position: relative;
+    width: 200px;
+    bottom: 118px;
+    left:20%;
+}
+
+h1{
+    color: rgb(241, 112, 7);
+    position: relative;
+    right: 38%;
+    bottom: 20px;
+    font-size: 35px;
+  
+}
+
+#descrip1{
+    position: relative;
+    
+    right: 1%;
+    font-size: 20px;
+}
+

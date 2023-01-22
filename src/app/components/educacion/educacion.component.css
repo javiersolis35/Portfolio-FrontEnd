@@ -1,6 +1,5 @@
-.row{
-    /* padding: 10px;
-    background-color: rgba(9, 236, 236, 0.301); */
+/* .row{
+   
     background: rgba(255,255,255,0.1);
 -webkit-backdrop-filter: blur(4px);
 backdrop-filter: blur(4px);
@@ -54,4 +53,72 @@ h1,h3,h5{
     z-index: 1;
   color: white;
   font-size: 25px;
+} */
+
+.row {
+ 
+
+    background: rgba(3, 3, 3, 0.514);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(17, 17, 17, 0.05);
+
 }
+
+div {
+
+    position: relative;
+    top: 300px;
+}
+
+#exp1 {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    top: 120px;
+    padding: 30px;
+
+
+}
+
+#datos {
+    position: relative;
+    width: 100%;
+    top: 30px;
+
+}
+
+@media (max-width: 575px) {
+    #exp1 {
+        position: relative;
+        width: 550px;
+        left: 0%;
+        top: 300px;
+
+
+    }
+
+    #datos {
+        position: relative;
+        width: 100%;
+        top: 30px;
+    }
+
+}
+
+
+h3,
+h5 {
+    display: inline;
+    border-radius: 40%;
+    color: aliceblue;
+    z-index: 1;
+    color: white;
+    font-size: 25px;
+}
+
+h1 {
+    color: rgb(255, 123, 0);
+    font-size: 35px;
+} 
+

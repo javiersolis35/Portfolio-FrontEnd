@@ -1,4 +1,4 @@
-<div class="row">
+<!-- <div class="row">
     <div class="container">
         <div class="logo">
             <img src="../../../assets/arg-programa.png" id="logoAP">
@@ -19,4 +19,27 @@
 
 
         </div>
-    </div>
+    </div> -->
+
+    <div class="row">
+        <div class="container">
+            <div class="logo">
+                <img src="../../../assets/arg-programa.png" id="logoAP">
+            </div>
+            <div class="redes">
+                <div>
+                    <a href="https://www.facebook.com/JLDeveloper35" target="_blank"><img src="../../../assets/iconos/icons8-facebook-64.png" id="facebook"></a>
+                    <a href="https://www.instagram.com/javi_ulis/"target="_blank"><img src="../../../assets/iconos/icons8-instagram-64.png" id="instagram"></a>
+                    <a href="https://twitter.com/javierlezcano35"target="_blank"><img src="../../../assets/iconos/icons8-twitter-64.png" id="twitter"></a>
+                    <a href="https://github.com/javiersolis35"target="_blank"><img src="../../../assets/iconos/icons8-github-64.png" id="github"></a>
+                    <a href="https://www.linkedin.com/in/javier-solis-9734a31b9/"target="_blank"><img src="../../../assets/iconos/icons8-linkedin-64.png" id="linkedin"></a>
+                    <button type="button" class="btn btn-outline-primary" (click)="login()"
+                        *ngIf="!isLogged">INGRESO</button>
+                    <button type="button" class="btn btn-outline-primary " (click)="onLogOut()" *ngIf="isLogged">CERRAR
+                        SESION</button>
+    
+                </div>
+    
+    
+            </div>
+        </div>

@@ -162,12 +162,12 @@
 
 #nombre {
     font-size: 35px;
-    color: rgb(245, 121, 6);
+    color: rgb(255, 255, 255);
     top: 100px;
 }
 
 #catego1 {
-    color: rgba(231, 146, 49, 0.479);
+    color: rgb(255, 255, 255);
 }
 
 #text1 {

@@ -1,14 +1,14 @@
-body {
+#login1 {
     position: relative;
     background-image: url(../../../assets/Blue_dazzling_lines_dark_background_4K_HD_3840x2400.jpg);
     width: 70%;
-    height:650px;
+    height:532px;
     top: 150px;
     left: 15%;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(17, 17, 17, 0.452);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(3, 3, 3, 0.808);
 
 }
 
@@ -20,9 +20,16 @@ body {
 }
 
 h2{
-    color: rgb(255, 153, 0);
+    color: rgb(255, 255, 254);
 }
 
 #usu1{
-    color: rgb(255, 153, 0);;
+    color: rgb(255, 255, 255);;
+    }
+
+    @media (max-width: 800px){
+        #login1{
+            width: 100%;
+            
+        }
     }

@@ -1,58 +1,4 @@
-/* .row{
-    
-    background: rgba(255,255,255,0.1);
--webkit-backdrop-filter: blur(4px);
-backdrop-filter: blur(4px);
-border: 1px solid rgba(255,255,255,0.05);
 
-    
-} 
-
-
-#exp1{
-    
-  position: relative;
-  width: 100%;
-  top: 80px;
-  padding: 30px;
-  
-  
-}
-
-#datos{
-    position: relative;
-    width: 100%;
-    top: 10px;
-
-}
-
-@media (max-width: 575px){
-    #exp1{
-        position: relative;
-        width: 100%;
-        left: 0%;
-        top: 0;
-        
-        
-    }
-    #datos{
-        position: relative;
-        width: 100%;
-        top: 15px;
-    }
-
-}
-
-h1,h3,h5{
-    display: inline;
-    border-radius: 40%;
-    color: aliceblue;
-    z-index: 1;
-  color: white;
-  font-size: 25px;
-}
-
- */
 
  .row{
     /* padding: 10px;
@@ -86,7 +32,7 @@ h1,h3,h5{
 @media (max-width: 575px){
     #exp1{
         position: relative;
-        width: 500px;
+        width: 550px;
         left: 0%;
         top: 280px;
         

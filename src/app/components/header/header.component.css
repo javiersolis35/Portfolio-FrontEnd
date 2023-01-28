@@ -1,6 +1,6 @@
 div{
     /* background-color: #a1b5cb; */
-    background: rgba(3, 3, 3, 0.637);
+    background: rgba(0, 0, 0, 0.705);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     border: 1px solid rgba(17, 17, 17, 0.678);
@@ -16,11 +16,11 @@ app-social{
 }
 
 #banner1{
-    width: 127%;
+    width: 100%;
 }
 @media (max-width: 575px) {
     #banner1{
-        width: 575px;
+        width: 600px;
         height: 670px;
     }
 

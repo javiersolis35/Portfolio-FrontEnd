@@ -132,7 +132,7 @@
         width: 48%;
         border-radius: 30%;
         box-shadow: 3px 3px 3px rgb(231, 76, 4);
-        left: 40%;
+        left: 10px;
         top: 300px;
     }
 }
@@ -172,7 +172,7 @@
 
 #text1 {
     position: relative;
-    width: 100%;
+    width: 95%;
     right: 10%;
     top: 80px;
     padding: 30px;
@@ -180,6 +180,7 @@
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     border: 1px solid rgba(17, 17, 17, 0.05);
+    left: 18px;
 
 }
 
@@ -188,10 +189,11 @@
     #tag1 {
         position: absolute;
         width: 50%;
-        left: 40%;
-        top: 490px;
+        left: 50%;
+        top: 315px;
 
     }
+
 
 }
 
@@ -216,7 +218,7 @@
     }
     #boto1{
         position: relative;
-        left: -100px;
+        left: -80px;
         bottom: 345px;
     }
     

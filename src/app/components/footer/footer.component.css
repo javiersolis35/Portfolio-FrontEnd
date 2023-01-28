@@ -9,17 +9,28 @@ footer{
     
     position: relative;
     top: 300px;
-    background: rgba(184, 25, 25, 0.1);
+    background: rgba(5, 5, 5, 0.836);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
-    border: 1px solid rgba(236, 19, 19, 0.05);
+    border: 1px solid rgba(5, 5, 5, 0.05);
     border-radius: 5%;
 
-    background: rgba(184, 25, 25, 0.1);
+    background: rgba(0, 0, 0, 0.1);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
-    border: 1px solid rgba(236, 19, 19, 0.05);
+    border: 1px solid rgba(10, 10, 10, 0.05);
     border-radius: 5%;
 
     
+}
+
+@media (max-width: 575px) {
+    #fort1{
+        position: relative;
+        width: 551px;
+        height: 100px;
+        top: 100px;
+    }
+
+
 }

@@ -15,9 +15,12 @@ app-social{
     
 }
 
+#banner1{
+    width: 127%;
+}
 @media (max-width: 575px) {
     #banner1{
-        width: 519px;
+        width: 575px;
         height: 670px;
     }
 

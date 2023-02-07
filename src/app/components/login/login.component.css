@@ -2,9 +2,9 @@
     position: relative;
     background-image: url(../../../assets/Blue_dazzling_lines_dark_background_4K_HD_3840x2400.jpg);
     width: 70%;
-    height:532px;
+    height:540px;
     top: 150px;
-    left: 15%;
+    left: 10px;
     background: rgba(17, 17, 17, 0.452);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);

@@ -11,7 +11,7 @@ export class SExperienciaService {
 
 
   
-  expURL = 'https://6498ac2e3a5864458a82c6d4--stirring-puppy-cd295a.netlify.app/';
+  expURL = 'https://portfolio-backend1.netlify.app/';
   
    URL = environment.URL + 'explab/'; 
 

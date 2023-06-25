@@ -11,7 +11,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
 })
 export class AuthService {
 
-  authURL = 'https://portfolio-backend-myr2.onrender.com/';
+  authURL = 'https://6498ac2e3a5864458a82c6d4--stirring-puppy-cd295a.netlify.app/';
 
   URL = environment.URL + 'auth/'
 

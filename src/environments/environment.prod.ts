@@ -10,5 +10,5 @@ export const environment = {
     measurementId: 'G-PW6SEB0330',
   },
   production: true,
-  URL: 'https://portfolio-backend-myr2.onrender.com/'
+  URL: 'https://6498ac2e3a5864458a82c6d4--stirring-puppy-cd295a.netlify.app/'
 };
